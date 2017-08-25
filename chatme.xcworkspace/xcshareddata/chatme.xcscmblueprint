@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C51D2F37EB366B5725B318C89DBB875250511A7C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "14C02640D92359C9490F5D27E20F499662B32018" : 9223372036854775807,
+    "C51D2F37EB366B5725B318C89DBB875250511A7C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2B7DBCFE-CED7-43E2-8C57-635ED3CC4711",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "14C02640D92359C9490F5D27E20F499662B32018" : "",
+    "C51D2F37EB366B5725B318C89DBB875250511A7C" : "chatme\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "chatme",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "chatme.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shahaider\/sirikit-journey.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "14C02640D92359C9490F5D27E20F499662B32018"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shahaider\/chatme.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C51D2F37EB366B5725B318C89DBB875250511A7C"
+    }
+  ]
+}

@@ -30,6 +30,8 @@ class addressViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     // VARIABLE OF THIS CLASS
     var friendList = [String]()
+    var friendPhoto = [String]()
+    
     var sender = ""
     
     var helper = FirebaseHelper()
@@ -75,6 +77,10 @@ class addressViewController: UIViewController,UITableViewDelegate,UITableViewDat
 //                FirebaseHelper.FirebaseAddressBook.append(result["Name"])
                 
                 self.friendList.append(fetchData["Name"]!)
+                self.friendPhoto.append(fetchData["photo"]!)
+                    
+                    print(self.friendList)
+                    print(self.friendPhoto)
                 
                 // @@@@@@@@@@@@@@@ tableview Reload @@@@@@@@@@@@@@@@@@
                 self.addressbook.reloadData()
@@ -131,8 +137,15 @@ class addressViewController: UIViewController,UITableViewDelegate,UITableViewDat
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = UITableViewCell()
-        cell.textLabel?.text = friendList[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "chatmeViewCell") as! TableViewCell
+        cell.nameLabel.text = friendList[indexPath.row]
+        
+        let photolink =  friendPhoto[indexPath.row]
+        let photoUrl = URL(string: photolink)
+        let photodata = NSData(contentsOf: photoUrl!)
+        
+        let photo = UIImage(data: photodata as! Data)
+        cell.userImage.image = photo
         
         return cell
     

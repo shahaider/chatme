@@ -24,6 +24,9 @@
 		F2918CAB1F3454AE0023DB93 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2918CA91F3454AE0023DB93 /* MainInterface.storyboard */; };
 		F2918CAF1F3454AE0023DB93 /* chatmeSiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F2918CA31F3454AE0023DB93 /* chatmeSiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F2918CB21F3454AE0023DB93 /* chatmeSiri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F2918C9A1F3454AD0023DB93 /* chatmeSiri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F29AD45B1F5059F200D80D0C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AD45A1F5059F100D80D0C /* TableViewCell.swift */; };
+		F29AD45F1F505B2600D80D0C /* customizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AD45E1F505B2600D80D0C /* customizeImage.swift */; };
+		F29AD4611F506F5800D80D0C /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29AD4601F506F5800D80D0C /* cardView.swift */; };
 		F2B3DAD51F32F745007E1B09 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B3DAD41F32F745007E1B09 /* FirebaseHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +91,9 @@
 		F2918CA71F3454AE0023DB93 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IntentViewController.swift; path = chatmeSiriUI/IntentViewController.swift; sourceTree = SOURCE_ROOT; };
 		F2918CAA1F3454AE0023DB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		F2918CAC1F3454AE0023DB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29AD45A1F5059F100D80D0C /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F29AD45E1F505B2600D80D0C /* customizeImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customizeImage.swift; sourceTree = "<group>"; };
+		F29AD4601F506F5800D80D0C /* cardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
 		F29C14F51F38BCCF00867BC7 /* MMWormhole.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMWormhole.framework; path = "Pods/../build/Debug-iphoneos/MMWormhole/MMWormhole.framework"; sourceTree = "<group>"; };
 		F2B3DAD41F32F745007E1B09 /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
 		F2B3DAD61F331508007E1B09 /* chatme.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chatme.entitlements; sourceTree = "<group>"; };
@@ -178,12 +184,15 @@
 				F2017E231F30DCC900C5E1F4 /* addressViewController.swift */,
 				F207AF7E1F30B878006BA74D /* chatViewController.swift */,
 				F2B3DAD41F32F745007E1B09 /* FirebaseHelper.swift */,
+				F29AD4601F506F5800D80D0C /* cardView.swift */,
 				F207AF6E1F30B32B006BA74D /* Main.storyboard */,
 				F207AF711F30B32B006BA74D /* Assets.xcassets */,
 				F207AF731F30B32B006BA74D /* LaunchScreen.storyboard */,
 				F207AF761F30B32B006BA74D /* Info.plist */,
 				F24560121F331EDE00311E5B /* GoogleService-Info.plist */,
 				F2918CA71F3454AE0023DB93 /* IntentViewController.swift */,
+				F29AD45A1F5059F100D80D0C /* TableViewCell.swift */,
+				F29AD45E1F505B2600D80D0C /* customizeImage.swift */,
 			);
 			path = chatme;
 			sourceTree = "<group>";
@@ -473,10 +482,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F29AD45F1F505B2600D80D0C /* customizeImage.swift in Sources */,
 				F2017E221F30C86B00C5E1F4 /* signinViewController.swift in Sources */,
 				F207AF7F1F30B878006BA74D /* chatViewController.swift in Sources */,
 				F207AF6B1F30B32B006BA74D /* AppDelegate.swift in Sources */,
+				F29AD45B1F5059F200D80D0C /* TableViewCell.swift in Sources */,
 				F2017E241F30DCC900C5E1F4 /* addressViewController.swift in Sources */,
+				F29AD4611F506F5800D80D0C /* cardView.swift in Sources */,
 				F2B3DAD51F32F745007E1B09 /* FirebaseHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

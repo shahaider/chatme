@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,35 +19,59 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8U-F2-cXu">
-                                <rect key="frame" x="93.5" y="298.5" width="188" height="70"/>
+                                <rect key="frame" x="74" y="333" width="267" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="OYb-dm-OGe"/>
+                                    <constraint firstAttribute="width" constant="267" id="VY9-Ek-iCC"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chatme logo" translatesAutoresizingMaskIntoConstraints="NO" id="C0F-rQ-ofZ">
+                                <rect key="frame" x="143" y="194" width="115" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="6sM-tK-UFo"/>
+                                    <constraint firstAttribute="width" constant="115" id="8eP-AP-Mfu"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firebase.version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1q-sr-5Uh">
-                                <rect key="frame" x="173" y="364" width="124" height="21"/>
+                                <rect key="frame" x="235" y="411" width="124" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="NDG-I9-qlb"/>
+                                    <constraint firstAttribute="width" constant="124" id="S1u-YD-Pa9"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="r1q-sr-5Uh" firstAttribute="top" secondItem="z8U-F2-cXu" secondAttribute="bottom" constant="-4.5" id="BRt-Ho-RwI"/>
-                            <constraint firstItem="r1q-sr-5Uh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="157" id="CPQ-j9-UlJ"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="r1q-sr-5Uh" secondAttribute="bottom" constant="282" id="Kld-TR-7K9"/>
-                            <constraint firstItem="z8U-F2-cXu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sEd-6F-bCx"/>
-                            <constraint firstItem="z8U-F2-cXu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ssk-Ym-dJc"/>
+                            <constraint firstItem="C0F-rQ-ofZ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="174" id="1q5-K6-gzk"/>
+                            <constraint firstItem="r1q-sr-5Uh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="215" id="4d3-uB-d7E"/>
+                            <constraint firstItem="r1q-sr-5Uh" firstAttribute="top" secondItem="z8U-F2-cXu" secondAttribute="bottom" constant="8" id="4uQ-Du-X4L"/>
+                            <constraint firstItem="z8U-F2-cXu" firstAttribute="top" secondItem="C0F-rQ-ofZ" secondAttribute="bottom" constant="32" id="QkE-7b-Qjs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="r1q-sr-5Uh" secondAttribute="trailing" constant="35" id="UgZ-j2-Iel"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="z8U-F2-cXu" secondAttribute="trailing" constant="53" id="VKa-ZG-aRR"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="r1q-sr-5Uh" secondAttribute="bottom" constant="304" id="Z8I-R6-iHI"/>
+                            <constraint firstItem="z8U-F2-cXu" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="54" id="ddW-m0-ZgW"/>
+                            <constraint firstItem="C0F-rQ-ofZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="123" id="iVn-Fb-enx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C0F-rQ-ofZ" secondAttribute="trailing" constant="136" id="kv5-fT-VBA"/>
+                            <constraint firstItem="z8U-F2-cXu" firstAttribute="top" secondItem="C0F-rQ-ofZ" secondAttribute="bottom" constant="32" id="mnr-8K-YfB"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="chatme logo" width="263" height="263"/>
+    </resources>
 </document>
