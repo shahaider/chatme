@@ -1,0 +1,1546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = C67602012E62A94666F8A8AC69054D25 /* GTMSessionFetcherLogging.m */; };
+		0749EC40D3519957D43A1040F9662F71 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB24CDC1DD2D3B7652CCF6A6238BD81F /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 95126E45E8A6A1B41D6C61AAFB22B1B1 /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A92802CE29487C200BE42BF357BFFBA /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 084E2BD3B63DD0B91974FC85705CCC57 /* MMWormhole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1AE7C7A32417000D16E99CAD831174B9 /* Pods-chatme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2DF64D705CCD2E65C08B5A9A778813 /* Pods-chatme-dummy.m */; };
+		1DBFA10BC14BC542578AE741908F4BA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8D49CE968B1DCF0B158A182DC16989 /* Foundation.framework */; };
+		1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = DD96984CF0BA06AB6C5227D7348F005A /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2718E9BF5CF48044E360F0E2306CA918 /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = ED398FFDF13B733DD8E6F704A6A1444E /* MMWormholeCoordinatedFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A6132D536A960F8BBE141A1AD2C0A /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B06CF80003D96090B50D8618E395B /* GoogleToolboxForMac-dummy.m */; };
+		40B83EC45177401060978B8287DF7184 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3050EE4E5AFAE417D599AADD864550 /* WatchConnectivity.framework */; };
+		41BEDA5EE20DAB103834E417D98EF302 /* MMWormholeCoordinatedFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E796FB07AFA532C402D92F520A9AF42 /* MMWormholeCoordinatedFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2AB5BFF7D9DE66B8B242ACE69AE0D9 /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5194D08C9E9337E4638AA8C45E166E86 /* GTMDebugThreadValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50AC460956BD7E31F9D655240B230A41 /* MMWormhole-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 035F9F85F578938147C9BEA1DD391BEC /* MMWormhole-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56A4BB4B000E76DEC9B258FDD7C8F297 /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F11B096391CFE92E8FED9D8BE402A9C /* MMWormholeSessionMessageTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57045C28E15499C96707862FD6CCC429 /* MMWormholeSessionMessageTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C011A4628ABD79FF57D392C179E564 /* MMWormholeSessionMessageTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECA16AAC3C1157298E21F8DB76FAFC8 /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		60AD5B8DC40C672E82860BBE6C419940 /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 953BC113CBD65E7E82B1D81E1AF5301B /* MMWormholeTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60F8E42CB4DF22CD20522AC2CEE8DA49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8D49CE968B1DCF0B158A182DC16989 /* Foundation.framework */; };
+		63796B7C8FC452D6CE22FA6B1E294E03 /* MMWormholeSession.h in Headers */ = {isa = PBXBuildFile; fileRef = F41513F6D9DEFBF6327C560264E96B63 /* MMWormholeSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F86710AEE1CE5D2D6FE893E5F54AE7 /* GTMSessionFetcher.m */; };
+		6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DE7EEBB3EDF66B2C4A684A4B241046 /* GTMSessionFetcher-dummy.m */; };
+		72EA900FF62B9CFAA81004B2F09856A2 /* MMWormholeSessionContextTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E241D6645E4D2FF797E918F70C9EDC /* MMWormholeSessionContextTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839282BAA133DF7EAB519B86C9538EC8 /* MMWormholeSessionFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AD8AE76F84F84D0D64EDFFAABA7E1E /* MMWormholeSessionFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF783C19B2EDF589FF5AAC428F84113 /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9024F4774BD8DDE03700B223CF7F8164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8D49CE968B1DCF0B158A182DC16989 /* Foundation.framework */; };
+		90D1DA4584DB8FF8BEF49D3B024824AB /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 80913769598209DB9BE9281BFB7D47B8 /* MMWormholeFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		95C06DD89FD7C3BEAAB47C8BD0D424D1 /* Pods-chatmeSiri-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6ED279092856F760E9FC6C582F9C8A7 /* Pods-chatmeSiri-dummy.m */; };
+		95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A19070204039F6EBAF69689C4DE45D0 /* GTMSessionFetcherService.m */; };
+		96FA282EFD44B79B5DFE1CB32A8FF90C /* MMWormholeFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 62FB676EDC975D046F4537338AF66AB7 /* MMWormholeFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		979AD090990E17A2C60FC3E0E617C3E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8D49CE968B1DCF0B158A182DC16989 /* Foundation.framework */; };
+		97A1939BBD5C334E0997734D0BB932D3 /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 457736642A62ECE476B3AE38FEC7EC36 /* MMWormholeSessionContextTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9DA28C3544749A7DB9AB129BEC773550 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A4561AEE4A5BB709E316CB0F1529A8 /* Security.framework */; };
+		9EC088E66AD01D0523DCB7F68183A3EC /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = F10AD15F47FC40DC83FC60B02A8DD9FE /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3A38C26809EDEBD585CEBE59B2EC490 /* Pods-chatme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98DFD743F5E6272B8424B7F1C50962F5 /* Pods-chatme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D07243BE8420A006918B11F87D4512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8D49CE968B1DCF0B158A182DC16989 /* Foundation.framework */; };
+		AA05B2918C02B9F15E39798A7CFFDBBE /* MMWormhole-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8CF36FD5659A28FBB57C532D3995B /* MMWormhole-dummy.m */; };
+		B05C496A6F67CE9F60DC711F402AB20A /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C97A831DE225C83FFE852EA39206DAA /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3ED830372EE647A8C034535EA79E96E /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D33BE4E9303E2BA6F22089690D22AD /* MMWormholeSessionFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9A04CBBF007CB8AAF75D61C5EF4D81F /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8352C179907FC3DD43C5BC65419DD8 /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFA296B3DB4BE90B416E74F0A6B71E48 /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F7A77EC9DB780B40BA59BFD73B5B6 /* MMWormholeSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD5F7A157AE4A1A51E7BE219259DE43 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C452478E500A63004BF4A54A50561BAC /* Pods-chatmeSiriUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2572D9E5B472339CA6CAA1354A21AFA2 /* Pods-chatmeSiriUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A1A63A4C67D9828DF94807BC2C3002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8D49CE968B1DCF0B158A182DC16989 /* Foundation.framework */; };
+		D28734EDC84B2A7FBC4D5DCF95177BF8 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8B156B61DBA744FFEDA3BD94A5D6DF /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAE82D9C559DBF581861C82FB42CDB5 /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 0148DBF53D176B9AFB175757DF8677C2 /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF9559C3822E3C6119BE43E4EDFD7EEE /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F24558770B245955D60369A2CEA209 /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7D23D2F163A34BEC60FD54BCCC22C76 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E96F6959F30B7183D9BD5953F70BB18 /* GTMNSDictionary+URLArguments.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F09EDD53B94234F5F8DAC4DCD5CD969E /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 69248A58E678F091DFB7B96B3A3D5618 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3F6CA3A124D7EA29CCEAA5AE11EC62C /* Pods-chatmeSiri-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 463208721F9B94D39A8BFE40A0616258 /* Pods-chatmeSiri-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E294C07EE32FFCDCF7FF4D71D850BD /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 591E9C0FAF420EC909E83BA4162DA0A6 /* GTMSessionUploadFetcher.m */; };
+		FBB5A09988E607E98CB8AAB91DB01355 /* Pods-chatmeSiriUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 994B093B47C910F79FC1926B532EE8FB /* Pods-chatmeSiriUI-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16EC5A13F3683D2028CB324EB09CB9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C8B0A5762D4572F2D507F7315F54FFA;
+			remoteInfo = MMWormhole;
+		};
+		45055CC261582DE542A7B889E742F9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107A9565F9DF88517DFD3E28C05B2B96;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		4B8629E28A5451DE64174BD97D9D7833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107A9565F9DF88517DFD3E28C05B2B96;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		502663E28A88A24EA0A01B94987CF500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C052BEBFBD0AB5218CC64BA3450F6547;
+			remoteInfo = GTMSessionFetcher;
+		};
+		B588EE0D64352A70A87B7EA3C7117E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C8B0A5762D4572F2D507F7315F54FFA;
+			remoteInfo = MMWormhole;
+		};
+		C3978E04138A6996E9171DBFCE171E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C052BEBFBD0AB5218CC64BA3450F6547;
+			remoteInfo = GTMSessionFetcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0148DBF53D176B9AFB175757DF8677C2 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "Foundation/GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		035F9F85F578938147C9BEA1DD391BEC /* MMWormhole-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-umbrella.h"; sourceTree = "<group>"; };
+		084E2BD3B63DD0B91974FC85705CCC57 /* MMWormhole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormhole.m; path = Source/MMWormhole.m; sourceTree = "<group>"; };
+		09A4561AEE4A5BB709E316CB0F1529A8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		0AAE82D9C559DBF581861C82FB42CDB5 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		15DE7EEBB3EDF66B2C4A684A4B241046 /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
+		164276CEB50E2072BD4F1193C3C8A255 /* Pods-chatme-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-chatme-acknowledgements.markdown"; sourceTree = "<group>"; };
+		187563C8042CD6EE243333876B351FA7 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E330DB8F5CA5F6CB9A11D9A1690BF5 /* Pods-chatmeSiriUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-chatmeSiriUI.debug.xcconfig"; sourceTree = "<group>"; };
+		1A19070204039F6EBAF69689C4DE45D0 /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		1AB2DB6146A28E3E7F91E110A6326010 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		1AF85AB89C2D8B51677633A6C0D71526 /* MMWormhole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMWormhole.framework; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E796FB07AFA532C402D92F520A9AF42 /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeCoordinatedFileTransiting.h; path = Source/MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		1E96F6959F30B7183D9BD5953F70BB18 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSDictionary+URLArguments.m"; path = "Foundation/GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		22F3B4471091B7E525B7D6C2C5A51330 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		2572D9E5B472339CA6CAA1354A21AFA2 /* Pods-chatmeSiriUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-chatmeSiriUI-umbrella.h"; sourceTree = "<group>"; };
+		2605341D87E1C7367857B39A7A27B15B /* Pods-chatmeSiri-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-chatmeSiri-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CF9CEC4350C8F67C9A0B963394F706C /* Pods_chatmeSiri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_chatmeSiri.framework; path = "Pods-chatmeSiri.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD5F7A157AE4A1A51E7BE219259DE43 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		2E8B156B61DBA744FFEDA3BD94A5D6DF /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		31D33BE4E9303E2BA6F22089690D22AD /* MMWormholeSessionFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionFileTransiting.m; path = Source/MMWormholeSessionFileTransiting.m; sourceTree = "<group>"; };
+		32DF7A4CC4FE67BAB1A9C16A244E497F /* Pods-chatme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-chatme.debug.xcconfig"; sourceTree = "<group>"; };
+		3792B9610EBEB0D80133C614BB18F3F0 /* Pods-chatmeSiriUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-chatmeSiriUI.release.xcconfig"; sourceTree = "<group>"; };
+		426A9DEFB9254622D6B38899BD0F533D /* Pods-chatme-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-chatme-resources.sh"; sourceTree = "<group>"; };
+		457736642A62ECE476B3AE38FEC7EC36 /* MMWormholeSessionContextTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionContextTransiting.m; path = Source/MMWormholeSessionContextTransiting.m; sourceTree = "<group>"; };
+		463208721F9B94D39A8BFE40A0616258 /* Pods-chatmeSiri-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-chatmeSiri-umbrella.h"; sourceTree = "<group>"; };
+		4AAD7F087E9BAF1351F6DB9B2EDA98DB /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		4F11B096391CFE92E8FED9D8BE402A9C /* MMWormholeSessionMessageTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionMessageTransiting.m; path = Source/MMWormholeSessionMessageTransiting.m; sourceTree = "<group>"; };
+		515957B6A5A1D42C7B7F62F5D1CCACF8 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		5194D08C9E9337E4638AA8C45E166E86 /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugThreadValidation.h; path = DebugUtils/GTMDebugThreadValidation.h; sourceTree = "<group>"; };
+		568881277D3CEE6FD582153033730EC4 /* Pods_chatme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_chatme.framework; path = "Pods-chatme.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		591523E054BF0BB6C6D51EDC2AA9F742 /* Pods-chatme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-chatme.release.xcconfig"; sourceTree = "<group>"; };
+		591E9C0FAF420EC909E83BA4162DA0A6 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
+		62FB676EDC975D046F4537338AF66AB7 /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeFileTransiting.h; path = Source/MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		65FD9C46D33E53819CF29EDBD8843733 /* Pods-chatmeSiri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-chatmeSiri.release.xcconfig"; sourceTree = "<group>"; };
+		69248A58E678F091DFB7B96B3A3D5618 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
+		6AEF7D31D2A06E17033C1EE0F9178533 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2B749F1E455268DA212327CCFFE408 /* MMWormhole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-prefix.pch"; sourceTree = "<group>"; };
+		6C97A831DE225C83FFE852EA39206DAA /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugSelectorValidation.h; path = DebugUtils/GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
+		6ECA16AAC3C1157298E21F8DB76FAFC8 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+URLArguments.m"; path = "Foundation/GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		70F13437483AB1D052E3AF4A8762F51C /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		7A6A6132D536A960F8BBE141A1AD2C0A /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		7B4B9361316AD608C7A6296A7E26D421 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5F7A77EC9DB780B40BA59BFD73B5B6 /* MMWormholeSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSession.m; path = Source/MMWormholeSession.m; sourceTree = "<group>"; };
+		7D300505048B6B763BCC60D21CA7409A /* Pods-chatmeSiri.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-chatmeSiri.modulemap"; sourceTree = "<group>"; };
+		7E2DF64D705CCD2E65C08B5A9A778813 /* Pods-chatme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-chatme-dummy.m"; sourceTree = "<group>"; };
+		8046A3CDC9161799BC869B14149E4983 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		80913769598209DB9BE9281BFB7D47B8 /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeFileTransiting.m; path = Source/MMWormholeFileTransiting.m; sourceTree = "<group>"; };
+		83C27224249E237C87D2D40539B799CB /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		8801F3A40115B009921C38B4A012BA91 /* Pods_chatmeSiriUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_chatmeSiriUI.framework; path = "Pods-chatmeSiriUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAE74DB0CC0B126FFE339616B45C0E8 /* Pods-chatmeSiriUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-chatmeSiriUI.modulemap"; sourceTree = "<group>"; };
+		8DD8CF36FD5659A28FBB57C532D3995B /* MMWormhole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMWormhole-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95126E45E8A6A1B41D6C61AAFB22B1B1 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSDictionary+URLArguments.h"; path = "Foundation/GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		953BC113CBD65E7E82B1D81E1AF5301B /* MMWormholeTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeTransiting.h; path = Source/MMWormholeTransiting.h; sourceTree = "<group>"; };
+		97997D191292A1F12E38419BF3277BDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DFD743F5E6272B8424B7F1C50962F5 /* Pods-chatme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-chatme-umbrella.h"; sourceTree = "<group>"; };
+		994B093B47C910F79FC1926B532EE8FB /* Pods-chatmeSiriUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-chatmeSiriUI-dummy.m"; sourceTree = "<group>"; };
+		9C77E4166FEF0C369A5E4B0B1C0A4198 /* Pods-chatmeSiri-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-chatmeSiri-resources.sh"; sourceTree = "<group>"; };
+		9E4903AB66CBF8270CB59A235A548357 /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
+		A16A035851CB4ADEE380026D7A051692 /* Pods-chatmeSiriUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-chatmeSiriUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3E241D6645E4D2FF797E918F70C9EDC /* MMWormholeSessionContextTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionContextTransiting.h; path = Source/MMWormholeSessionContextTransiting.h; sourceTree = "<group>"; };
+		A994F97A7A6B0B28D3C430534FF3F3F6 /* Pods-chatme-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-chatme-frameworks.sh"; sourceTree = "<group>"; };
+		AB8352C179907FC3DD43C5BC65419DD8 /* GTMMethodCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMethodCheck.h; path = DebugUtils/GTMMethodCheck.h; sourceTree = "<group>"; };
+		AD232255F329C319A514E7652CC7371E /* Pods-chatme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-chatme.modulemap"; sourceTree = "<group>"; };
+		AED3F50E838CDCF66397B2084D54488F /* Pods-chatmeSiriUI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-chatmeSiriUI-resources.sh"; sourceTree = "<group>"; };
+		B077141139BB1951A48FC3DAA5B572DC /* Pods-chatmeSiriUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-chatmeSiriUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0AD8AE76F84F84D0D64EDFFAABA7E1E /* MMWormholeSessionFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionFileTransiting.h; path = Source/MMWormholeSessionFileTransiting.h; sourceTree = "<group>"; };
+		B1E33033EA437EAF7622C8E63E533A66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51126265CAC7C253575093AD03A7D04 /* Pods-chatmeSiri-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-chatmeSiri-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB3050EE4E5AFAE417D599AADD864550 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		C020BDC4F10D8BC5CD9FB3B164771854 /* Pods-chatmeSiri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-chatmeSiri.debug.xcconfig"; sourceTree = "<group>"; };
+		C22B06CF80003D96090B50D8618E395B /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		C25B8ECEF3C10750BD6D4438728B7F99 /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
+		C67602012E62A94666F8A8AC69054D25 /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
+		C72600F4BBF3AE5A7299CC2AEA3B92D5 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		CB24CDC1DD2D3B7652CCF6A6238BD81F /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		CBB831FC7E68E0A685F1F20F05CCC4BB /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		D0F24558770B245955D60369A2CEA209 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
+		D3B4698949E616B3477D6401ED941D0B /* MMWormhole.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMWormhole.xcconfig; sourceTree = "<group>"; };
+		DCC1E85BF052C234A54B2824BA6ADFF8 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		DD96984CF0BA06AB6C5227D7348F005A /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		DEF3400D6F9AADC9C7AD910A342FFF8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C011A4628ABD79FF57D392C179E564 /* MMWormholeSessionMessageTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionMessageTransiting.h; path = Source/MMWormholeSessionMessageTransiting.h; sourceTree = "<group>"; };
+		E756D2E0C84C9984EA5FFB48BDCD72A4 /* Pods-chatme-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-chatme-acknowledgements.plist"; sourceTree = "<group>"; };
+		E884E5FB48BE0D6EBDCF6186FE22907F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF783C19B2EDF589FF5AAC428F84113 /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
+		ED398FFDF13B733DD8E6F704A6A1444E /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeCoordinatedFileTransiting.m; path = Source/MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		EDAFA0166519CA443D4031CFAA1674CA /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		EF8D49CE968B1DCF0B158A182DC16989 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F10AD15F47FC40DC83FC60B02A8DD9FE /* MMWormhole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = Source/MMWormhole.h; sourceTree = "<group>"; };
+		F41513F6D9DEFBF6327C560264E96B63 /* MMWormholeSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSession.h; path = Source/MMWormholeSession.h; sourceTree = "<group>"; };
+		F6ED279092856F760E9FC6C582F9C8A7 /* Pods-chatmeSiri-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-chatmeSiri-dummy.m"; sourceTree = "<group>"; };
+		F8A23ACD81149FB4BD7A6ED573C7103A /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F86710AEE1CE5D2D6FE893E5F54AE7 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
+		FE8D1616930080451905A42593955029 /* MMWormhole.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MMWormhole.modulemap; sourceTree = "<group>"; };
+		FFEA3B9BB21543C62E76E826873BB356 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047A11AE35FE06D87CD0851052FCE164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F8E42CB4DF22CD20522AC2CEE8DA49 /* Foundation.framework in Frameworks */,
+				40B83EC45177401060978B8287DF7184 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CBB6258FCDC1E387D2A24DBFE49B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBFA10BC14BC542578AE741908F4BA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE88E96161DE195EAAF0A3B6375EA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9024F4774BD8DDE03700B223CF7F8164 /* Foundation.framework in Frameworks */,
+				9DA28C3544749A7DB9AB129BEC773550 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4486C60C0B156E740EFCA7659FDCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D07243BE8420A006918B11F87D4512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB2FD04E98E8D08B812CFAD3603A106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A1A63A4C67D9828DF94807BC2C3002 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEA244FE3A3EBC00732F705A9F16C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979AD090990E17A2C60FC3E0E617C3E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DCFFBB1FE56145B7C447B136C99E63 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				2E8B156B61DBA744FFEDA3BD94A5D6DF /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		0D361DBDB9CF11CB3B1517DD647A674F /* NSString+URLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				0148DBF53D176B9AFB175757DF8677C2 /* GTMNSString+URLArguments.h */,
+				6ECA16AAC3C1157298E21F8DB76FAFC8 /* GTMNSString+URLArguments.m */,
+			);
+			name = "NSString+URLArguments";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4848E916135A946D24A3A4483D56CC77 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25D835DBEFCF5754540D2B40E7A4D6D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FB4B4228768AB90EE40339DB7B7C906 /* Firebase */,
+				43B5114BBD11848F346618ED77F3F411 /* FirebaseAnalytics */,
+				BEB63320C584356C43D296D6333348A5 /* FirebaseAuth */,
+				646AFF5FE7C9F3D4FD34ED0DA432F922 /* FirebaseCore */,
+				FC4D39F2A657A81748F56CA0359CB5E9 /* FirebaseDatabase */,
+				F202E1D1B015DF0B31F8A37DABD718DF /* FirebaseInstanceID */,
+				F83654DC3F28F6D764D625D71D9C1A33 /* GoogleToolboxForMac */,
+				5AE77EE81A27CC733B47B6BA8072C791 /* GTMSessionFetcher */,
+				2A7044C59588CA861A554704DD307954 /* MMWormhole */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A7044C59588CA861A554704DD307954 /* MMWormhole */ = {
+			isa = PBXGroup;
+			children = (
+				858A47B52868314F7ED8438581C92A1D /* Core */,
+				8BDB34A9BED93CA66C01F2D09047F9D1 /* Support Files */,
+			);
+			name = MMWormhole;
+			path = MMWormhole;
+			sourceTree = "<group>";
+		};
+		3693772B63A022B00693959879526E9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB831FC7E68E0A685F1F20F05CCC4BB /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42A82219CE20A9CD974260C5778B42F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22F3B4471091B7E525B7D6C2C5A51330 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43B5114BBD11848F346618ED77F3F411 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				3693772B63A022B00693959879526E9E /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		46A25BEDFBE29EAD0871D10131AE28A9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D21B1CAA3DC9019CFC75E6687E949 /* Pods-chatme */,
+				E3DD412FC3C95777BB33A5542A150265 /* Pods-chatmeSiri */,
+				9B8776324308A2D3E7C0CFEE23EC070B /* Pods-chatmeSiriUI */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4848E916135A946D24A3A4483D56CC77 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF8D49CE968B1DCF0B158A182DC16989 /* Foundation.framework */,
+				09A4561AEE4A5BB709E316CB0F1529A8 /* Security.framework */,
+				BB3050EE4E5AFAE417D599AADD864550 /* WatchConnectivity.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4FB4B4228768AB90EE40339DB7B7C906 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				A889DD17CD04BB1783D21F1FC03C9C23 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		5AE77EE81A27CC733B47B6BA8072C791 /* GTMSessionFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA867DB6078CA98FFB2D8C0F4675DD /* Core */,
+				F07BCB8ED1868BAF852BD644032FFE26 /* Support Files */,
+			);
+			name = GTMSessionFetcher;
+			path = GTMSessionFetcher;
+			sourceTree = "<group>";
+		};
+		646AFF5FE7C9F3D4FD34ED0DA432F922 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				E97EE5455E225086C3752BAF333F5B48 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		6BD7BAA549271B17852DBDAEB8E019AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8A23ACD81149FB4BD7A6ED573C7103A /* GoogleToolboxForMac.framework */,
+				187563C8042CD6EE243333876B351FA7 /* GTMSessionFetcher.framework */,
+				1AF85AB89C2D8B51677633A6C0D71526 /* MMWormhole.framework */,
+				568881277D3CEE6FD582153033730EC4 /* Pods_chatme.framework */,
+				2CF9CEC4350C8F67C9A0B963394F706C /* Pods_chatmeSiri.framework */,
+				8801F3A40115B009921C38B4A012BA91 /* Pods_chatmeSiriUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				25D835DBEFCF5754540D2B40E7A4D6D1 /* Pods */,
+				6BD7BAA549271B17852DBDAEB8E019AA /* Products */,
+				46A25BEDFBE29EAD0871D10131AE28A9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		858A47B52868314F7ED8438581C92A1D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F10AD15F47FC40DC83FC60B02A8DD9FE /* MMWormhole.h */,
+				084E2BD3B63DD0B91974FC85705CCC57 /* MMWormhole.m */,
+				1E796FB07AFA532C402D92F520A9AF42 /* MMWormholeCoordinatedFileTransiting.h */,
+				ED398FFDF13B733DD8E6F704A6A1444E /* MMWormholeCoordinatedFileTransiting.m */,
+				62FB676EDC975D046F4537338AF66AB7 /* MMWormholeFileTransiting.h */,
+				80913769598209DB9BE9281BFB7D47B8 /* MMWormholeFileTransiting.m */,
+				F41513F6D9DEFBF6327C560264E96B63 /* MMWormholeSession.h */,
+				7B5F7A77EC9DB780B40BA59BFD73B5B6 /* MMWormholeSession.m */,
+				A3E241D6645E4D2FF797E918F70C9EDC /* MMWormholeSessionContextTransiting.h */,
+				457736642A62ECE476B3AE38FEC7EC36 /* MMWormholeSessionContextTransiting.m */,
+				B0AD8AE76F84F84D0D64EDFFAABA7E1E /* MMWormholeSessionFileTransiting.h */,
+				31D33BE4E9303E2BA6F22089690D22AD /* MMWormholeSessionFileTransiting.m */,
+				E2C011A4628ABD79FF57D392C179E564 /* MMWormholeSessionMessageTransiting.h */,
+				4F11B096391CFE92E8FED9D8BE402A9C /* MMWormholeSessionMessageTransiting.m */,
+				953BC113CBD65E7E82B1D81E1AF5301B /* MMWormholeTransiting.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		8BDB34A9BED93CA66C01F2D09047F9D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AEF7D31D2A06E17033C1EE0F9178533 /* Info.plist */,
+				FE8D1616930080451905A42593955029 /* MMWormhole.modulemap */,
+				D3B4698949E616B3477D6401ED941D0B /* MMWormhole.xcconfig */,
+				8DD8CF36FD5659A28FBB57C532D3995B /* MMWormhole-dummy.m */,
+				6B2B749F1E455268DA212327CCFFE408 /* MMWormhole-prefix.pch */,
+				035F9F85F578938147C9BEA1DD391BEC /* MMWormhole-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMWormhole";
+			sourceTree = "<group>";
+		};
+		984113D14585EF45AE8CD62D15FA0549 /* DebugUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6C97A831DE225C83FFE852EA39206DAA /* GTMDebugSelectorValidation.h */,
+				5194D08C9E9337E4638AA8C45E166E86 /* GTMDebugThreadValidation.h */,
+				AB8352C179907FC3DD43C5BC65419DD8 /* GTMMethodCheck.h */,
+			);
+			name = DebugUtils;
+			sourceTree = "<group>";
+		};
+		9B8776324308A2D3E7C0CFEE23EC070B /* Pods-chatmeSiriUI */ = {
+			isa = PBXGroup;
+			children = (
+				E884E5FB48BE0D6EBDCF6186FE22907F /* Info.plist */,
+				8CAE74DB0CC0B126FFE339616B45C0E8 /* Pods-chatmeSiriUI.modulemap */,
+				B077141139BB1951A48FC3DAA5B572DC /* Pods-chatmeSiriUI-acknowledgements.markdown */,
+				A16A035851CB4ADEE380026D7A051692 /* Pods-chatmeSiriUI-acknowledgements.plist */,
+				994B093B47C910F79FC1926B532EE8FB /* Pods-chatmeSiriUI-dummy.m */,
+				AED3F50E838CDCF66397B2084D54488F /* Pods-chatmeSiriUI-resources.sh */,
+				2572D9E5B472339CA6CAA1354A21AFA2 /* Pods-chatmeSiriUI-umbrella.h */,
+				18E330DB8F5CA5F6CB9A11D9A1690BF5 /* Pods-chatmeSiriUI.debug.xcconfig */,
+				3792B9610EBEB0D80133C614BB18F3F0 /* Pods-chatmeSiriUI.release.xcconfig */,
+			);
+			name = "Pods-chatmeSiriUI";
+			path = "Target Support Files/Pods-chatmeSiriUI";
+			sourceTree = "<group>";
+		};
+		9C5D02D5C4989F843F99618E7E5627B7 /* NSDictionary+URLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				95126E45E8A6A1B41D6C61AAFB22B1B1 /* GTMNSDictionary+URLArguments.h */,
+				1E96F6959F30B7183D9BD5953F70BB18 /* GTMNSDictionary+URLArguments.m */,
+			);
+			name = "NSDictionary+URLArguments";
+			sourceTree = "<group>";
+		};
+		A889DD17CD04BB1783D21F1FC03C9C23 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4AAD7F087E9BAF1351F6DB9B2EDA98DB /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AC3512160230BA5FEAD3FEDCA6A91720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C72600F4BBF3AE5A7299CC2AEA3B92D5 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE3D21B1CAA3DC9019CFC75E6687E949 /* Pods-chatme */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3400D6F9AADC9C7AD910A342FFF8E /* Info.plist */,
+				AD232255F329C319A514E7652CC7371E /* Pods-chatme.modulemap */,
+				164276CEB50E2072BD4F1193C3C8A255 /* Pods-chatme-acknowledgements.markdown */,
+				E756D2E0C84C9984EA5FFB48BDCD72A4 /* Pods-chatme-acknowledgements.plist */,
+				7E2DF64D705CCD2E65C08B5A9A778813 /* Pods-chatme-dummy.m */,
+				A994F97A7A6B0B28D3C430534FF3F3F6 /* Pods-chatme-frameworks.sh */,
+				426A9DEFB9254622D6B38899BD0F533D /* Pods-chatme-resources.sh */,
+				98DFD743F5E6272B8424B7F1C50962F5 /* Pods-chatme-umbrella.h */,
+				32DF7A4CC4FE67BAB1A9C16A244E497F /* Pods-chatme.debug.xcconfig */,
+				591523E054BF0BB6C6D51EDC2AA9F742 /* Pods-chatme.release.xcconfig */,
+			);
+			name = "Pods-chatme";
+			path = "Target Support Files/Pods-chatme";
+			sourceTree = "<group>";
+		};
+		BEB63320C584356C43D296D6333348A5 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				AC3512160230BA5FEAD3FEDCA6A91720 /* Frameworks */,
+			);
+			name = FirebaseAuth;
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		E2EA867DB6078CA98FFB2D8C0F4675DD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ECF783C19B2EDF589FF5AAC428F84113 /* GTMSessionFetcher.h */,
+				F9F86710AEE1CE5D2D6FE893E5F54AE7 /* GTMSessionFetcher.m */,
+				DD96984CF0BA06AB6C5227D7348F005A /* GTMSessionFetcherLogging.h */,
+				C67602012E62A94666F8A8AC69054D25 /* GTMSessionFetcherLogging.m */,
+				D0F24558770B245955D60369A2CEA209 /* GTMSessionFetcherService.h */,
+				1A19070204039F6EBAF69689C4DE45D0 /* GTMSessionFetcherService.m */,
+				69248A58E678F091DFB7B96B3A3D5618 /* GTMSessionUploadFetcher.h */,
+				591E9C0FAF420EC909E83BA4162DA0A6 /* GTMSessionUploadFetcher.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E3DD412FC3C95777BB33A5542A150265 /* Pods-chatmeSiri */ = {
+			isa = PBXGroup;
+			children = (
+				97997D191292A1F12E38419BF3277BDE /* Info.plist */,
+				7D300505048B6B763BCC60D21CA7409A /* Pods-chatmeSiri.modulemap */,
+				B51126265CAC7C253575093AD03A7D04 /* Pods-chatmeSiri-acknowledgements.markdown */,
+				2605341D87E1C7367857B39A7A27B15B /* Pods-chatmeSiri-acknowledgements.plist */,
+				F6ED279092856F760E9FC6C582F9C8A7 /* Pods-chatmeSiri-dummy.m */,
+				9C77E4166FEF0C369A5E4B0B1C0A4198 /* Pods-chatmeSiri-resources.sh */,
+				463208721F9B94D39A8BFE40A0616258 /* Pods-chatmeSiri-umbrella.h */,
+				C020BDC4F10D8BC5CD9FB3B164771854 /* Pods-chatmeSiri.debug.xcconfig */,
+				65FD9C46D33E53819CF29EDBD8843733 /* Pods-chatmeSiri.release.xcconfig */,
+			);
+			name = "Pods-chatmeSiri";
+			path = "Target Support Files/Pods-chatmeSiri";
+			sourceTree = "<group>";
+		};
+		E97EE5455E225086C3752BAF333F5B48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2DB6146A28E3E7F91E110A6326010 /* FirebaseCore.framework */,
+				EDAFA0166519CA443D4031CFAA1674CA /* FirebaseCoreDiagnostics.framework */,
+				DCC1E85BF052C234A54B2824BA6ADFF8 /* FirebaseNanoPB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDE045943E0C402D41BA062B8DD4B6FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				515957B6A5A1D42C7B7F62F5D1CCACF8 /* GoogleToolboxForMac.modulemap */,
+				8046A3CDC9161799BC869B14149E4983 /* GoogleToolboxForMac.xcconfig */,
+				C22B06CF80003D96090B50D8618E395B /* GoogleToolboxForMac-dummy.m */,
+				83C27224249E237C87D2D40539B799CB /* GoogleToolboxForMac-prefix.pch */,
+				CB24CDC1DD2D3B7652CCF6A6238BD81F /* GoogleToolboxForMac-umbrella.h */,
+				B1E33033EA437EAF7622C8E63E533A66 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		F07BCB8ED1868BAF852BD644032FFE26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFEA3B9BB21543C62E76E826873BB356 /* GTMSessionFetcher.modulemap */,
+				C25B8ECEF3C10750BD6D4438728B7F99 /* GTMSessionFetcher.xcconfig */,
+				15DE7EEBB3EDF66B2C4A684A4B241046 /* GTMSessionFetcher-dummy.m */,
+				9E4903AB66CBF8270CB59A235A548357 /* GTMSessionFetcher-prefix.pch */,
+				0AAE82D9C559DBF581861C82FB42CDB5 /* GTMSessionFetcher-umbrella.h */,
+				7B4B9361316AD608C7A6296A7E26D421 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMSessionFetcher";
+			sourceTree = "<group>";
+		};
+		F202E1D1B015DF0B31F8A37DABD718DF /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				F59D740B847BC7AF5E57E5BC6CD313AC /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		F59D740B847BC7AF5E57E5BC6CD313AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F13437483AB1D052E3AF4A8762F51C /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F727178920693306A5F783178B71534B /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5F7A157AE4A1A51E7BE219259DE43 /* GTMNSData+zlib.h */,
+				7A6A6132D536A960F8BBE141A1AD2C0A /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		F83654DC3F28F6D764D625D71D9C1A33 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				984113D14585EF45AE8CD62D15FA0549 /* DebugUtils */,
+				09DCFFBB1FE56145B7C447B136C99E63 /* Defines */,
+				F727178920693306A5F783178B71534B /* NSData+zlib */,
+				9C5D02D5C4989F843F99618E7E5627B7 /* NSDictionary+URLArguments */,
+				0D361DBDB9CF11CB3B1517DD647A674F /* NSString+URLArguments */,
+				EDE045943E0C402D41BA062B8DD4B6FA /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		FC4D39F2A657A81748F56CA0359CB5E9 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				42A82219CE20A9CD974260C5778B42F7 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0110A7D118BFCDF69ACA19AE1386F36E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A38C26809EDEBD585CEBE59B2EC490 /* Pods-chatme-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BB80A9E0DA199BC9CB2D208FA04552 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AC460956BD7E31F9D655240B230A41 /* MMWormhole-umbrella.h in Headers */,
+				9EC088E66AD01D0523DCB7F68183A3EC /* MMWormhole.h in Headers */,
+				41BEDA5EE20DAB103834E417D98EF302 /* MMWormholeCoordinatedFileTransiting.h in Headers */,
+				96FA282EFD44B79B5DFE1CB32A8FF90C /* MMWormholeFileTransiting.h in Headers */,
+				63796B7C8FC452D6CE22FA6B1E294E03 /* MMWormholeSession.h in Headers */,
+				72EA900FF62B9CFAA81004B2F09856A2 /* MMWormholeSessionContextTransiting.h in Headers */,
+				839282BAA133DF7EAB519B86C9538EC8 /* MMWormholeSessionFileTransiting.h in Headers */,
+				57045C28E15499C96707862FD6CCC429 /* MMWormholeSessionMessageTransiting.h in Headers */,
+				60AD5B8DC40C672E82860BBE6C419940 /* MMWormholeTransiting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617E5D17477039E148F71D4FF92EDEB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F6CA3A124D7EA29CCEAA5AE11EC62C /* Pods-chatmeSiri-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82820515A90F14985070B1F2728072E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C452478E500A63004BF4A54A50561BAC /* Pods-chatmeSiriUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D993B88C10479096F17ADDEAB85D94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */,
+				8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */,
+				1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */,
+				DF9559C3822E3C6119BE43E4EDFD7EEE /* GTMSessionFetcherService.h in Headers */,
+				F09EDD53B94234F5F8DAC4DCD5CD969E /* GTMSessionUploadFetcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0A1DF130E97C4755B09863D7F1AD5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0749EC40D3519957D43A1040F9662F71 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				B05C496A6F67CE9F60DC711F402AB20A /* GTMDebugSelectorValidation.h in Headers */,
+				4F2AB5BFF7D9DE66B8B242ACE69AE0D9 /* GTMDebugThreadValidation.h in Headers */,
+				D28734EDC84B2A7FBC4D5DCF95177BF8 /* GTMDefines.h in Headers */,
+				B9A04CBBF007CB8AAF75D61C5EF4D81F /* GTMMethodCheck.h in Headers */,
+				C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */,
+				11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */,
+				DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		107A9565F9DF88517DFD3E28C05B2B96 /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3166596B665E06C4B76C8ABB6AB06824 /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				222F0DC2D2D238CAB82346DE258E5472 /* Sources */,
+				9DB2FD04E98E8D08B812CFAD3603A106 /* Frameworks */,
+				BB0A1DF130E97C4755B09863D7F1AD5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = F8A23ACD81149FB4BD7A6ED573C7103A /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C8B0A5762D4572F2D507F7315F54FFA /* MMWormhole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F8E2C3A06916EC368E358A033534A0 /* Build configuration list for PBXNativeTarget "MMWormhole" */;
+			buildPhases = (
+				D15608DE2253CDCF3E1F069124F2F278 /* Sources */,
+				047A11AE35FE06D87CD0851052FCE164 /* Frameworks */,
+				48BB80A9E0DA199BC9CB2D208FA04552 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMWormhole;
+			productName = MMWormhole;
+			productReference = 1AF85AB89C2D8B51677633A6C0D71526 /* MMWormhole.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7192F788A5EBAC9B5E8B52503F5845AE /* Pods-chatmeSiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D14B6C2007C937020EA612951E79FC /* Build configuration list for PBXNativeTarget "Pods-chatmeSiri" */;
+			buildPhases = (
+				D28AFB3406015C4145A9672498971A7F /* Sources */,
+				22CBB6258FCDC1E387D2A24DBFE49B4C /* Frameworks */,
+				617E5D17477039E148F71D4FF92EDEB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4198BC9914E3D0A72DEB95EBD8856A39 /* PBXTargetDependency */,
+				EEA6182DAA7C0EC20D23052C86D21156 /* PBXTargetDependency */,
+				2BB40FB6A62DF60322714A23AE4B543C /* PBXTargetDependency */,
+			);
+			name = "Pods-chatmeSiri";
+			productName = "Pods-chatmeSiri";
+			productReference = 2CF9CEC4350C8F67C9A0B963394F706C /* Pods_chatmeSiri.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFD72F612DE247DB387D492F0C10F32A /* Pods-chatme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA77A2D407DAD0BBA28CFAC8953E535 /* Build configuration list for PBXNativeTarget "Pods-chatme" */;
+			buildPhases = (
+				C0002A33DF1AEB62751E271244AC3D2E /* Sources */,
+				DAEA244FE3A3EBC00732F705A9F16C58 /* Frameworks */,
+				0110A7D118BFCDF69ACA19AE1386F36E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C147E35105A4C1982E4800BD969FA1 /* PBXTargetDependency */,
+				9FD014BDD8C8CB2A116915AE66277C5D /* PBXTargetDependency */,
+				83E2D69CE8ACB7DE42F6B994D77AED74 /* PBXTargetDependency */,
+			);
+			name = "Pods-chatme";
+			productName = "Pods-chatme";
+			productReference = 568881277D3CEE6FD582153033730EC4 /* Pods_chatme.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7CC8559AB6F51830204F1A9CE54BF3E /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */;
+			buildPhases = (
+				C5A309EC5A80A27DBD420C5176E2122A /* Sources */,
+				6AE88E96161DE195EAAF0A3B6375EA50 /* Frameworks */,
+				82D993B88C10479096F17ADDEAB85D94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMSessionFetcher;
+			productName = GTMSessionFetcher;
+			productReference = 187563C8042CD6EE243333876B351FA7 /* GTMSessionFetcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E97F96FDFE7DDDDD86064D8F533BF829 /* Pods-chatmeSiriUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124FA983C20992AC97BB756AE51DC6F4 /* Build configuration list for PBXNativeTarget "Pods-chatmeSiriUI" */;
+			buildPhases = (
+				83A68BE4B1CBEAF2BB0AED415949FECF /* Sources */,
+				9C4486C60C0B156E740EFCA7659FDCF9 /* Frameworks */,
+				82820515A90F14985070B1F2728072E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-chatmeSiriUI";
+			productName = "Pods-chatmeSiriUI";
+			productReference = 8801F3A40115B009921C38B4A012BA91 /* Pods_chatmeSiriUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6BD7BAA549271B17852DBDAEB8E019AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				107A9565F9DF88517DFD3E28C05B2B96 /* GoogleToolboxForMac */,
+				C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */,
+				5C8B0A5762D4572F2D507F7315F54FFA /* MMWormhole */,
+				BFD72F612DE247DB387D492F0C10F32A /* Pods-chatme */,
+				7192F788A5EBAC9B5E8B52503F5845AE /* Pods-chatmeSiri */,
+				E97F96FDFE7DDDDD86064D8F533BF829 /* Pods-chatmeSiriUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222F0DC2D2D238CAB82346DE258E5472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */,
+				2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */,
+				E7D23D2F163A34BEC60FD54BCCC22C76 /* GTMNSDictionary+URLArguments.m in Sources */,
+				5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A68BE4B1CBEAF2BB0AED415949FECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB5A09988E607E98CB8AAB91DB01355 /* Pods-chatmeSiriUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0002A33DF1AEB62751E271244AC3D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE7C7A32417000D16E99CAD831174B9 /* Pods-chatme-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A309EC5A80A27DBD420C5176E2122A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */,
+				64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */,
+				07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */,
+				95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */,
+				F4E294C07EE32FFCDCF7FF4D71D850BD /* GTMSessionUploadFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15608DE2253CDCF3E1F069124F2F278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA05B2918C02B9F15E39798A7CFFDBBE /* MMWormhole-dummy.m in Sources */,
+				1A92802CE29487C200BE42BF357BFFBA /* MMWormhole.m in Sources */,
+				2718E9BF5CF48044E360F0E2306CA918 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				90D1DA4584DB8FF8BEF49D3B024824AB /* MMWormholeFileTransiting.m in Sources */,
+				BFA296B3DB4BE90B416E74F0A6B71E48 /* MMWormholeSession.m in Sources */,
+				97A1939BBD5C334E0997734D0BB932D3 /* MMWormholeSessionContextTransiting.m in Sources */,
+				B3ED830372EE647A8C034535EA79E96E /* MMWormholeSessionFileTransiting.m in Sources */,
+				56A4BB4B000E76DEC9B258FDD7C8F297 /* MMWormholeSessionMessageTransiting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28AFB3406015C4145A9672498971A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C06DD89FD7C3BEAAB47C8BD0D424D1 /* Pods-chatmeSiri-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB40FB6A62DF60322714A23AE4B543C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = 5C8B0A5762D4572F2D507F7315F54FFA /* MMWormhole */;
+			targetProxy = B588EE0D64352A70A87B7EA3C7117E33 /* PBXContainerItemProxy */;
+		};
+		4198BC9914E3D0A72DEB95EBD8856A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */;
+			targetProxy = C3978E04138A6996E9171DBFCE171E26 /* PBXContainerItemProxy */;
+		};
+		83E2D69CE8ACB7DE42F6B994D77AED74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = 5C8B0A5762D4572F2D507F7315F54FFA /* MMWormhole */;
+			targetProxy = 16EC5A13F3683D2028CB324EB09CB9CF /* PBXContainerItemProxy */;
+		};
+		9FD014BDD8C8CB2A116915AE66277C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 107A9565F9DF88517DFD3E28C05B2B96 /* GoogleToolboxForMac */;
+			targetProxy = 4B8629E28A5451DE64174BD97D9D7833 /* PBXContainerItemProxy */;
+		};
+		D4C147E35105A4C1982E4800BD969FA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = C052BEBFBD0AB5218CC64BA3450F6547 /* GTMSessionFetcher */;
+			targetProxy = 502663E28A88A24EA0A01B94987CF500 /* PBXContainerItemProxy */;
+		};
+		EEA6182DAA7C0EC20D23052C86D21156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 107A9565F9DF88517DFD3E28C05B2B96 /* GoogleToolboxForMac */;
+			targetProxy = 45055CC261582DE542A7B889E742F9CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3C99B3E9B7B1D0691E69695F9C4DB096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E330DB8F5CA5F6CB9A11D9A1690BF5 /* Pods-chatmeSiriUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-chatmeSiriUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-chatmeSiriUI/Pods-chatmeSiriUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_chatmeSiriUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		479917B7F2DFC0DE47C6DF7DF38F900F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591523E054BF0BB6C6D51EDC2AA9F742 /* Pods-chatme.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-chatme/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-chatme/Pods-chatme.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_chatme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F2A005EEEC833C6BFD4038143C04081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8046A3CDC9161799BC869B14149E4983 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		663F0175AEA1CFEE6808021376947D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8046A3CDC9161799BC869B14149E4983 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85D8131BEC232F1AAB3477CCAB3CE396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25B8ECEF3C10750BD6D4438728B7F99 /* GTMSessionFetcher.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A45E072C91CFA0772703022AB498453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B4698949E616B3477D6401ED941D0B /* MMWormhole.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C5C27C8AEECC23E2DAE18B7E92A383F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25B8ECEF3C10750BD6D4438728B7F99 /* GTMSessionFetcher.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEE1DACEC6AF8E1FA6E348B6A4F8834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FD9C46D33E53819CF29EDBD8843733 /* Pods-chatmeSiri.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-chatmeSiri/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-chatmeSiri/Pods-chatmeSiri.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_chatmeSiri;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9C199E7537F3EC7B13D7EF2E4162DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B4698949E616B3477D6401ED941D0B /* MMWormhole.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4BE70887F09CE0E17F9EE241133397A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32DF7A4CC4FE67BAB1A9C16A244E497F /* Pods-chatme.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-chatme/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-chatme/Pods-chatme.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_chatme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E73968CCE945B96845D20E768CB9F37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3792B9610EBEB0D80133C614BB18F3F0 /* Pods-chatmeSiriUI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-chatmeSiriUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-chatmeSiriUI/Pods-chatmeSiriUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_chatmeSiriUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAE6E17879D7402235DFB9BF79EE8060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C020BDC4F10D8BC5CD9FB3B164771854 /* Pods-chatmeSiri.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-chatmeSiri/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-chatmeSiri/Pods-chatmeSiri.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_chatmeSiri;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		124FA983C20992AC97BB756AE51DC6F4 /* Build configuration list for PBXNativeTarget "Pods-chatmeSiriUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C99B3E9B7B1D0691E69695F9C4DB096 /* Debug */,
+				E73968CCE945B96845D20E768CB9F37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D14B6C2007C937020EA612951E79FC /* Build configuration list for PBXNativeTarget "Pods-chatmeSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE6E17879D7402235DFB9BF79EE8060 /* Debug */,
+				ADEE1DACEC6AF8E1FA6E348B6A4F8834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3166596B665E06C4B76C8ABB6AB06824 /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2A005EEEC833C6BFD4038143C04081 /* Debug */,
+				663F0175AEA1CFEE6808021376947D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7CC8559AB6F51830204F1A9CE54BF3E /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5C27C8AEECC23E2DAE18B7E92A383F /* Debug */,
+				85D8131BEC232F1AAB3477CCAB3CE396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA77A2D407DAD0BBA28CFAC8953E535 /* Build configuration list for PBXNativeTarget "Pods-chatme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BE70887F09CE0E17F9EE241133397A /* Debug */,
+				479917B7F2DFC0DE47C6DF7DF38F900F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F8E2C3A06916EC368E358A033534A0 /* Build configuration list for PBXNativeTarget "MMWormhole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C199E7537F3EC7B13D7EF2E4162DE5 /* Debug */,
+				9A45E072C91CFA0772703022AB498453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

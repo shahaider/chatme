@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>940543257684-bgt57rtf4i78aroi0qogkjsrtu3ffnt0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.940543257684-bgt57rtf4i78aroi0qogkjsrtu3ffnt0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB2SigquOy7ek-x-EWIIj_0dTQ8wlI8iwQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>940543257684</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.panacloud.chatme</string>
+	<key>PROJECT_ID</key>
+	<string>chatme-18234</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatme-18234.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:940543257684:ios:dcd9520a42eef775</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatme-18234.firebaseio.com</string>
+</dict>
+</plist>

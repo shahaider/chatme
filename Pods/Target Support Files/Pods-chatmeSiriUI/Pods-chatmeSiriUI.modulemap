@@ -1,0 +1,6 @@
+framework module Pods_chatmeSiriUI {
+  umbrella header "Pods-chatmeSiriUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

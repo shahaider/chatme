@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BA8955AE723684A68516107 /* Pods_chatmeSiri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979C6BB969D923F06CB15326 /* Pods_chatmeSiri.framework */; };
+		6BFB70C024A8F7FC18D41C27 /* Pods_chatmeSiriUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D433DB56C816C59F322A85 /* Pods_chatmeSiriUI.framework */; };
+		BA9237A0CF524484D91E301D /* Pods_chatme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004285C3AD2F05B7652164D1 /* Pods_chatme.framework */; };
+		F2017E221F30C86B00C5E1F4 /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2017E211F30C86B00C5E1F4 /* signinViewController.swift */; };
+		F2017E241F30DCC900C5E1F4 /* addressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2017E231F30DCC900C5E1F4 /* addressViewController.swift */; };
+		F207AF6B1F30B32B006BA74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207AF6A1F30B32B006BA74D /* AppDelegate.swift */; };
+		F207AF701F30B32B006BA74D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F207AF6E1F30B32B006BA74D /* Main.storyboard */; };
+		F207AF721F30B32B006BA74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F207AF711F30B32B006BA74D /* Assets.xcassets */; };
+		F207AF751F30B32B006BA74D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F207AF731F30B32B006BA74D /* LaunchScreen.storyboard */; };
+		F207AF7F1F30B878006BA74D /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207AF7E1F30B878006BA74D /* chatViewController.swift */; };
+		F24560131F331EDE00311E5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F24560121F331EDE00311E5B /* GoogleService-Info.plist */; };
+		F2918C9D1F3454AE0023DB93 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2918C9C1F3454AE0023DB93 /* IntentHandler.swift */; };
+		F2918CA51F3454AE0023DB93 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2918CA41F3454AE0023DB93 /* IntentsUI.framework */; };
+		F2918CA81F3454AE0023DB93 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2918CA71F3454AE0023DB93 /* IntentViewController.swift */; };
+		F2918CAB1F3454AE0023DB93 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2918CA91F3454AE0023DB93 /* MainInterface.storyboard */; };
+		F2918CAF1F3454AE0023DB93 /* chatmeSiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F2918CA31F3454AE0023DB93 /* chatmeSiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F2918CB21F3454AE0023DB93 /* chatmeSiri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F2918C9A1F3454AD0023DB93 /* chatmeSiri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F2B3DAD51F32F745007E1B09 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B3DAD41F32F745007E1B09 /* FirebaseHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2918CAD1F3454AE0023DB93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F207AF5F1F30B32B006BA74D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2918CA21F3454AE0023DB93;
+			remoteInfo = chatmeSiriUI;
+		};
+		F2918CB01F3454AE0023DB93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F207AF5F1F30B32B006BA74D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2918C991F3454AD0023DB93;
+			remoteInfo = chatmeSiri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2918CB91F3454AE0023DB93 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F2918CAF1F3454AE0023DB93 /* chatmeSiriUI.appex in Embed App Extensions */,
+				F2918CB21F3454AE0023DB93 /* chatmeSiri.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		004285C3AD2F05B7652164D1 /* Pods_chatme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		028CC12AF92B2E900AE94C9F /* Pods-chatmeSiri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatmeSiri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatmeSiri/Pods-chatmeSiri.debug.xcconfig"; sourceTree = "<group>"; };
+		1359DD28F223CFFA032CA82F /* Pods-chatmeSiriUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatmeSiriUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatmeSiriUI/Pods-chatmeSiriUI.release.xcconfig"; sourceTree = "<group>"; };
+		166EACEFCF5AFDAE59635762 /* Pods-chatme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatme/Pods-chatme.debug.xcconfig"; sourceTree = "<group>"; };
+		439735F5FD7D1BAB4DC31092 /* Pods-chatmeSiriUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatmeSiriUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatmeSiriUI/Pods-chatmeSiriUI.debug.xcconfig"; sourceTree = "<group>"; };
+		58060B0EE684BEB430A474CE /* Pods-chatme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatme.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatme/Pods-chatme.release.xcconfig"; sourceTree = "<group>"; };
+		8BE5A9CB1F4F265C0010C15B /* chatmeSiri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chatmeSiri.entitlements; sourceTree = "<group>"; };
+		979C6BB969D923F06CB15326 /* Pods_chatmeSiri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatmeSiri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D433DB56C816C59F322A85 /* Pods_chatmeSiriUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatmeSiriUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2017E211F30C86B00C5E1F4 /* signinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
+		F2017E231F30DCC900C5E1F4 /* addressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addressViewController.swift; sourceTree = "<group>"; };
+		F207AF671F30B32B006BA74D /* chatme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F207AF6A1F30B32B006BA74D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F207AF6F1F30B32B006BA74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F207AF711F30B32B006BA74D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F207AF741F30B32B006BA74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F207AF761F30B32B006BA74D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F207AF7E1F30B878006BA74D /* chatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		F24560121F331EDE00311E5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F27BE8C9C1A420AD765C170C /* Pods-chatmeSiri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatmeSiri.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatmeSiri/Pods-chatmeSiri.release.xcconfig"; sourceTree = "<group>"; };
+		F2918C9A1F3454AD0023DB93 /* chatmeSiri.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = chatmeSiri.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2918C9C1F3454AE0023DB93 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		F2918C9E1F3454AE0023DB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2918CA31F3454AE0023DB93 /* chatmeSiriUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = chatmeSiriUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2918CA41F3454AE0023DB93 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		F2918CA71F3454AE0023DB93 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IntentViewController.swift; path = chatmeSiriUI/IntentViewController.swift; sourceTree = SOURCE_ROOT; };
+		F2918CAA1F3454AE0023DB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F2918CAC1F3454AE0023DB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29C14F51F38BCCF00867BC7 /* MMWormhole.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMWormhole.framework; path = "Pods/../build/Debug-iphoneos/MMWormhole/MMWormhole.framework"; sourceTree = "<group>"; };
+		F2B3DAD41F32F745007E1B09 /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		F2B3DAD61F331508007E1B09 /* chatme.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chatme.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F207AF641F30B32B006BA74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9237A0CF524484D91E301D /* Pods_chatme.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2918C971F3454AD0023DB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA8955AE723684A68516107 /* Pods_chatmeSiri.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2918CA01F3454AE0023DB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2918CA51F3454AE0023DB93 /* IntentsUI.framework in Frameworks */,
+				6BFB70C024A8F7FC18D41C27 /* Pods_chatmeSiriUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2158A00D7C006748E4A62067 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				166EACEFCF5AFDAE59635762 /* Pods-chatme.debug.xcconfig */,
+				58060B0EE684BEB430A474CE /* Pods-chatme.release.xcconfig */,
+				028CC12AF92B2E900AE94C9F /* Pods-chatmeSiri.debug.xcconfig */,
+				F27BE8C9C1A420AD765C170C /* Pods-chatmeSiri.release.xcconfig */,
+				439735F5FD7D1BAB4DC31092 /* Pods-chatmeSiriUI.debug.xcconfig */,
+				1359DD28F223CFFA032CA82F /* Pods-chatmeSiriUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DF0786214FCEC95D2B46F07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F29C14F51F38BCCF00867BC7 /* MMWormhole.framework */,
+				004285C3AD2F05B7652164D1 /* Pods_chatme.framework */,
+				F2918CA41F3454AE0023DB93 /* IntentsUI.framework */,
+				979C6BB969D923F06CB15326 /* Pods_chatmeSiri.framework */,
+				97D433DB56C816C59F322A85 /* Pods_chatmeSiriUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F207AF5E1F30B32B006BA74D = {
+			isa = PBXGroup;
+			children = (
+				F207AF691F30B32B006BA74D /* chatme */,
+				F2918C9B1F3454AD0023DB93 /* chatmeSiri */,
+				F2918CA61F3454AE0023DB93 /* chatmeSiriUI */,
+				F207AF681F30B32B006BA74D /* Products */,
+				2158A00D7C006748E4A62067 /* Pods */,
+				9DF0786214FCEC95D2B46F07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F207AF681F30B32B006BA74D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F207AF671F30B32B006BA74D /* chatme.app */,
+				F2918C9A1F3454AD0023DB93 /* chatmeSiri.appex */,
+				F2918CA31F3454AE0023DB93 /* chatmeSiriUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F207AF691F30B32B006BA74D /* chatme */ = {
+			isa = PBXGroup;
+			children = (
+				F2B3DAD61F331508007E1B09 /* chatme.entitlements */,
+				F207AF6A1F30B32B006BA74D /* AppDelegate.swift */,
+				F2017E211F30C86B00C5E1F4 /* signinViewController.swift */,
+				F2017E231F30DCC900C5E1F4 /* addressViewController.swift */,
+				F207AF7E1F30B878006BA74D /* chatViewController.swift */,
+				F2B3DAD41F32F745007E1B09 /* FirebaseHelper.swift */,
+				F207AF6E1F30B32B006BA74D /* Main.storyboard */,
+				F207AF711F30B32B006BA74D /* Assets.xcassets */,
+				F207AF731F30B32B006BA74D /* LaunchScreen.storyboard */,
+				F207AF761F30B32B006BA74D /* Info.plist */,
+				F24560121F331EDE00311E5B /* GoogleService-Info.plist */,
+				F2918CA71F3454AE0023DB93 /* IntentViewController.swift */,
+			);
+			path = chatme;
+			sourceTree = "<group>";
+		};
+		F2918C9B1F3454AD0023DB93 /* chatmeSiri */ = {
+			isa = PBXGroup;
+			children = (
+				8BE5A9CB1F4F265C0010C15B /* chatmeSiri.entitlements */,
+				F2918C9C1F3454AE0023DB93 /* IntentHandler.swift */,
+				F2918C9E1F3454AE0023DB93 /* Info.plist */,
+			);
+			path = chatmeSiri;
+			sourceTree = "<group>";
+		};
+		F2918CA61F3454AE0023DB93 /* chatmeSiriUI */ = {
+			isa = PBXGroup;
+			children = (
+				F2918CA91F3454AE0023DB93 /* MainInterface.storyboard */,
+				F2918CAC1F3454AE0023DB93 /* Info.plist */,
+			);
+			path = chatmeSiriUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F207AF661F30B32B006BA74D /* chatme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F207AF791F30B32B006BA74D /* Build configuration list for PBXNativeTarget "chatme" */;
+			buildPhases = (
+				D3B1A429F14F62867980937D /* [CP] Check Pods Manifest.lock */,
+				F207AF631F30B32B006BA74D /* Sources */,
+				F207AF641F30B32B006BA74D /* Frameworks */,
+				F207AF651F30B32B006BA74D /* Resources */,
+				49F9AD2F390834A58291890A /* [CP] Embed Pods Frameworks */,
+				38C6546D45C1EBEADC64E3F2 /* [CP] Copy Pods Resources */,
+				F2918CB91F3454AE0023DB93 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2918CAE1F3454AE0023DB93 /* PBXTargetDependency */,
+				F2918CB11F3454AE0023DB93 /* PBXTargetDependency */,
+			);
+			name = chatme;
+			productName = chatme;
+			productReference = F207AF671F30B32B006BA74D /* chatme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2918C991F3454AD0023DB93 /* chatmeSiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2918CB81F3454AE0023DB93 /* Build configuration list for PBXNativeTarget "chatmeSiri" */;
+			buildPhases = (
+				70F49FC480E0BBDA623A6D15 /* [CP] Check Pods Manifest.lock */,
+				F2918C961F3454AD0023DB93 /* Sources */,
+				F2918C971F3454AD0023DB93 /* Frameworks */,
+				F2918C981F3454AD0023DB93 /* Resources */,
+				9D10FBCBD573F7149FF4E08F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatmeSiri;
+			productName = chatmeSiri;
+			productReference = F2918C9A1F3454AD0023DB93 /* chatmeSiri.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F2918CA21F3454AE0023DB93 /* chatmeSiriUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2918CB71F3454AE0023DB93 /* Build configuration list for PBXNativeTarget "chatmeSiriUI" */;
+			buildPhases = (
+				8EAF556EE708ECD9C2CF5C9F /* [CP] Check Pods Manifest.lock */,
+				F2918C9F1F3454AE0023DB93 /* Sources */,
+				F2918CA01F3454AE0023DB93 /* Frameworks */,
+				F2918CA11F3454AE0023DB93 /* Resources */,
+				20802887C79AD1C5481C4582 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatmeSiriUI;
+			productName = chatmeSiriUI;
+			productReference = F2918CA31F3454AE0023DB93 /* chatmeSiriUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F207AF5F1F30B32B006BA74D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Syed Shahrukh Haider";
+				TargetAttributes = {
+					F207AF661F30B32B006BA74D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUBZ24DP5B;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					F2918C991F3454AD0023DB93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUBZ24DP5B;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					F2918CA21F3454AE0023DB93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUBZ24DP5B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F207AF621F30B32B006BA74D /* Build configuration list for PBXProject "chatme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F207AF5E1F30B32B006BA74D;
+			productRefGroup = F207AF681F30B32B006BA74D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F207AF661F30B32B006BA74D /* chatme */,
+				F2918C991F3454AD0023DB93 /* chatmeSiri */,
+				F2918CA21F3454AE0023DB93 /* chatmeSiriUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F207AF651F30B32B006BA74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F207AF751F30B32B006BA74D /* LaunchScreen.storyboard in Resources */,
+				F24560131F331EDE00311E5B /* GoogleService-Info.plist in Resources */,
+				F207AF721F30B32B006BA74D /* Assets.xcassets in Resources */,
+				F207AF701F30B32B006BA74D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2918C981F3454AD0023DB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2918CA11F3454AE0023DB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2918CAB1F3454AE0023DB93 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20802887C79AD1C5481C4582 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chatmeSiriUI/Pods-chatmeSiriUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C6546D45C1EBEADC64E3F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chatme/Pods-chatme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49F9AD2F390834A58291890A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chatme/Pods-chatme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F49FC480E0BBDA623A6D15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EAF556EE708ECD9C2CF5C9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D10FBCBD573F7149FF4E08F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-chatmeSiri/Pods-chatmeSiri-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B1A429F14F62867980937D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F207AF631F30B32B006BA74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2017E221F30C86B00C5E1F4 /* signinViewController.swift in Sources */,
+				F207AF7F1F30B878006BA74D /* chatViewController.swift in Sources */,
+				F207AF6B1F30B32B006BA74D /* AppDelegate.swift in Sources */,
+				F2017E241F30DCC900C5E1F4 /* addressViewController.swift in Sources */,
+				F2B3DAD51F32F745007E1B09 /* FirebaseHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2918C961F3454AD0023DB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2918C9D1F3454AE0023DB93 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2918C9F1F3454AE0023DB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2918CA81F3454AE0023DB93 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2918CAE1F3454AE0023DB93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2918CA21F3454AE0023DB93 /* chatmeSiriUI */;
+			targetProxy = F2918CAD1F3454AE0023DB93 /* PBXContainerItemProxy */;
+		};
+		F2918CB11F3454AE0023DB93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2918C991F3454AD0023DB93 /* chatmeSiri */;
+			targetProxy = F2918CB01F3454AE0023DB93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F207AF6E1F30B32B006BA74D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F207AF6F1F30B32B006BA74D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F207AF731F30B32B006BA74D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F207AF741F30B32B006BA74D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F2918CA91F3454AE0023DB93 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2918CAA1F3454AE0023DB93 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F207AF771F30B32B006BA74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F207AF781F30B32B006BA74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F207AF7A1F30B32B006BA74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166EACEFCF5AFDAE59635762 /* Pods-chatme.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = chatme/chatme.entitlements;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
+				INFOPLIST_FILE = chatme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panacloud.chatme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F207AF7B1F30B32B006BA74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58060B0EE684BEB430A474CE /* Pods-chatme.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = chatme/chatme.entitlements;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
+				INFOPLIST_FILE = chatme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panacloud.chatme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F2918CB31F3454AE0023DB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028CC12AF92B2E900AE94C9F /* Pods-chatmeSiri.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = chatmeSiri/chatmeSiri.entitlements;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MMWormhole",
+				);
+				INFOPLIST_FILE = chatmeSiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panacloud.chatme.chatmeSiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2918CB41F3454AE0023DB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27BE8C9C1A420AD765C170C /* Pods-chatmeSiri.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = chatmeSiri/chatmeSiri.entitlements;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/MMWormhole",
+				);
+				INFOPLIST_FILE = chatmeSiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panacloud.chatme.chatmeSiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F2918CB51F3454AE0023DB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439735F5FD7D1BAB4DC31092 /* Pods-chatmeSiriUI.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
+				INFOPLIST_FILE = chatmeSiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panacloud.chatme.chatmeSiriUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2918CB61F3454AE0023DB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1359DD28F223CFFA032CA82F /* Pods-chatmeSiriUI.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
+				INFOPLIST_FILE = chatmeSiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panacloud.chatme.chatmeSiriUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F207AF621F30B32B006BA74D /* Build configuration list for PBXProject "chatme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F207AF771F30B32B006BA74D /* Debug */,
+				F207AF781F30B32B006BA74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F207AF791F30B32B006BA74D /* Build configuration list for PBXNativeTarget "chatme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F207AF7A1F30B32B006BA74D /* Debug */,
+				F207AF7B1F30B32B006BA74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2918CB71F3454AE0023DB93 /* Build configuration list for PBXNativeTarget "chatmeSiriUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2918CB51F3454AE0023DB93 /* Debug */,
+				F2918CB61F3454AE0023DB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2918CB81F3454AE0023DB93 /* Build configuration list for PBXNativeTarget "chatmeSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2918CB31F3454AE0023DB93 /* Debug */,
+				F2918CB41F3454AE0023DB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F207AF5F1F30B32B006BA74D /* Project object */;
+}
